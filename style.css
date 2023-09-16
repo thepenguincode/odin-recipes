@@ -4,18 +4,106 @@
     background-color: #f6f7eb;
 }
 
+body {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.menu {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.top-left {
+    margin: 0;
+}
+
+.banner {
+    width: 700px;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: -1px;
+}
+
+.testimonial {
+    background-color: #ffffff;
+    max-width: 700px;
+    height: 400px;
+    padding: 8px 0 16px 18px;
+    margin-top: -1px;
+    margin-bottom: 1px;
+    display: flex;
+    gap: 8px;
+    border-bottom: 2px dashed gray;
+}
+
+.testimonial p {
+    background-color: white;
+    width: 350px;
+    text-align: center;
+    font-size: 22px;
+}
+
+#mr-mrs-a {
+    width: 300px;
+    height: auto;
+    margin-left: 8px;
+}
+
+strong {
+    background-color: transparent;
+    color: #e94f37;
+}
+
+h1,
 .heading,
 .subheading {
     color: #e94f37;
 }
 
-{
-    color: #e94f37;
+p {
+    background-color: transparent;
+    font-size: small;
 }
 
-img {
-    width: 500px;
-    height: auto;
+.recipes {
+    display: inline-block;
+    width: 700px;
+    height: 500px;
+    margin-top: -1px;
+    background-color: transparent;
+}
+
+.recipe-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+block {
+    width: 200px;
+    height: 275px;
+    background-color: white;
+    hover: blue;
+
+}
+
+.dish-thumbnail {
+    width: 200px;
+}
+
+.dish-name {
+    color:#e94f37;
+    background-color: transparent;
+    padding-left: 8px;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+
+.dish-description {
+    font-size: small;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 1px;
 }
 
 button {
